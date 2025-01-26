@@ -1,22 +1,42 @@
 {
-  "name": "bare-minimum",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "expo start --dev-client",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~52.0.27",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.6"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true,
-  "packageManager": "yarn@4.5.3+sha512.3003a14012e2987072d244c720506549c1aab73ee728208f1b2580a9fd67b92d61ba6b08fe93f6dce68fd771e3af1e59a0afa28dd242dd0940d73b95fedd4e90"
+	"name": "@hansf14/rn-template",
+	"version": "1.0.0",
+	"author": "hansf14 <sam_h0117@hotmail.com>",
+	"license": "MIT",
+	"description": "React Native template with expo and typescript",
+	"keywords": ["React Native", "template", "expo", "typescript"],
+	"homepage": "https://github.com/hansf14/rn-template",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hansf14/rn-template.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hansf14/rn-template/issues"
+	},
+	"main": "index.ts",
+	"scripts": {
+		"start": "expo start --dev-client",
+		"start-fresh": "expo start --dev-client --clear",
+		"android": "expo run:android",
+		"ios": "expo run:ios",
+		"web": "expo start --web"
+	},
+	"dependencies": {
+		"expo": "~52.0.27",
+		"expo-status-bar": "~2.0.1",
+		"react": "18.3.1",
+		"react-native": "0.76.6"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.25.2",
+		"@types/react": "~18.3.12",
+		"@typescript-eslint/eslint-plugin": "^8.21.0",
+		"@typescript-eslint/parser": "^8.21.0",
+		"eslint": "^9.18.0",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-prettier": "^5.2.3",
+		"eslint-plugin-react-hooks": "^5.1.0",
+		"typescript": "^5.3.3"
+	},
+	"packageManager": "yarn@4.5.3"
 }

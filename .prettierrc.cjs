@@ -1,0 +1,38 @@
+module.exports = {
+	// parser: "flow",
+	// "prettier/prettier": "error",
+	// trailingComma: "none",
+	// arrowBodyStyle: "off",
+	// preferArrowCallback: "off"
+	arrowParens: "always",
+	bracketSpacing: true,
+	endOfLine: "lf",
+	htmlWhitespaceSensitivity: "css",
+	insertPragma: false,
+	singleAttributePerLine: false,
+	bracketSameLine: false,
+	jsxBracketSameLine: false,
+	jsxSingleQuote: false,
+	printWidth: 80,
+	proseWrap: "preserve",
+	quoteProps: "as-needed",
+	requirePragma: false,
+	semi: true,
+	singleQuote: false,
+	tabWidth: 2,
+	trailingComma: "es5",
+	useTabs: true,
+	embeddedLanguageFormatting: "auto",
+	vueIndentScriptAndStyle: false,
+	experimentalTernaries: false,
+	parser: "typescript",
+	overrides: [
+		{
+			files: "*.json",
+			options: {
+				parser: "json",
+				tabWidth: 2,
+			},
+		},
+	],
+};
