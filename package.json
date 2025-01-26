@@ -1,6 +1,6 @@
 {
 	"name": "@hansf14/rn-template",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "hansf14 <sam_h0117@hotmail.com>",
 	"license": "MIT",
 	"description": "React Native template with native directories, expo, typescript, prettier, eslint, and path alias",
