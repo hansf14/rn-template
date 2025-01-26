@@ -6,3 +6,4 @@ React Native template
 - TypeScript
 - Prettier
 - Eslint
+- Path alias ("./*" as "@/*" like Next.js)
