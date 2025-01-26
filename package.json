@@ -1,6 +1,7 @@
 {
 	"name": "@hansf14/rn-template",
 	"version": "1.0.0",
+	"private": false,
 	"author": "hansf14 <sam_h0117@hotmail.com>",
 	"license": "MIT",
 	"description": "React Native template with expo and typescript",
@@ -12,6 +13,9 @@
 	},
 	"bugs": {
 		"url": "https://github.com/hansf14/rn-template/issues"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"main": "index.ts",
 	"scripts": {

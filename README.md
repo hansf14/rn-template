@@ -1,4 +1,8 @@
-# @hansf14/bare-minimum
+# @hansf14/rn-template
 
-`> yarn create expo-app --no-install --template bare-minimum `
-with TypeScript
+React Native template
+- Native directories (android, ios)
+- Expo
+- TypeScript
+- Prettier
+- Eslint
